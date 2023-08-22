@@ -8,26 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var inputText: String = ""
+
     var body: some View {
         VStack {
-            DSButton.CustomButtonView(
-                style: .primary(isDisabled: false))
-            {
-                print("Hello World!")
-            } label: {
-                VStack {
-                   Text("확 인")
+            DSTextField(style: .TextField, content: $inputText, maxLength: 100)
+            HStack {
+                DSButton.CustomButtonView(
+                    style: .primary(isDisabled: false))
+                {
+                    print("Hello World!")
+                } label: {
+                    VStack {
+                        Text("확 인")
+                    }
+                }
+                DSButton.CustomButtonView(
+                    style: .secondary(isDisabled: false))
+                {
+                    print("Hello World!")
+                } label: {
+                    VStack {
+                        Text("취 소")
+                    }
                 }
             }
-            DSButton.CustomButtonView(
-                style: .secondary(isDisabled: false))
-            {
-                print("Hello World!")
-            } label: {
-                VStack {
-                   Text("취 소")
-                }
-            }
+            .padding(.top)
         }
         .padding()
     }

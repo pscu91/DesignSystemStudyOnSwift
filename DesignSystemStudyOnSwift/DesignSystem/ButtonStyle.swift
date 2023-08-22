@@ -19,6 +19,7 @@ public struct DSButton {
     이로써 작업자들은 특정 케이스의 뷰가 어떤 기능을 수행하는지,
     어떤 속성이 필요한지 플레이스홀더로 확인할 수 있습니다.
     */
+    
     public enum DSButtonStyle {
         case primary(isDisabled: Bool)
         case secondary(isDisabled: Bool)
@@ -40,40 +41,19 @@ public struct DSButton {
             switch style {
             case .primary(let isDisabled):
                 label
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 16)
+                    .frame(maxHeight: 56)
+                    .padding(.horizontal, 16)
                     .foregroundColor(.text01)
-//                 .font(.dosIyagiBold(.body))
-//                    .cornerRadius(4)
-                .overlay {
-                    RoundedRectangle(cornerRadius: 4)
-                        .stroke(Color.primary, lineWidth: 4)
-                }
                     .background { Color.primary }
                     .opacity(isDisabled ? 0.3 : 1.0)
 
             case .secondary(let isDisabled):
                 label
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 16)
-                    .foregroundColor(.white)
-//                 .font(.dosIyagiBold(.body))
-                .overlay {
-                    RoundedRectangle(cornerRadius: 4)
-                        .stroke(Color.secondary, lineWidth: 4)
-                }
+                    .frame(maxHeight: 56)
+                    .padding(.horizontal, 16)
+                    .foregroundColor(.uiBackground)
                     .background { Color.secondary }
                     .opacity(isDisabled ? 0.3 : 1.0)
-
-//            case .tag(let isEditing, let isSelected):
-//                // code
-//
-//            case .plainText(let isDestructive):
-//                // code
-//
-//            case .homeTab(let tabName,
-//                          let tabSelection):
-//                // code
             }
         }
 
