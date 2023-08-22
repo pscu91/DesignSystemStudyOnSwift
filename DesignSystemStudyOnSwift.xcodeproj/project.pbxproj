@@ -13,6 +13,7 @@
 		C2DEF8762A933E8000D298F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DEF8752A933E8000D298F2 /* Preview Assets.xcassets */; };
 		C2DEF87E2A933F3600D298F2 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF87D2A933F3600D298F2 /* ButtonStyle.swift */; };
 		C2DEF8802A93421000D298F2 /* ColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF87F2A93421000D298F2 /* ColorStyle.swift */; };
+		C2DEF8822A9477F400D298F2 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF8812A9477F400D298F2 /* TextFieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C2DEF8752A933E8000D298F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2DEF87D2A933F3600D298F2 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		C2DEF87F2A93421000D298F2 /* ColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStyle.swift; sourceTree = "<group>"; };
+		C2DEF8812A9477F400D298F2 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				C2DEF87D2A933F3600D298F2 /* ButtonStyle.swift */,
 				C2DEF87F2A93421000D298F2 /* ColorStyle.swift */,
+				C2DEF8812A9477F400D298F2 /* TextFieldStyle.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				C2DEF87E2A933F3600D298F2 /* ButtonStyle.swift in Sources */,
 				C2DEF8712A933E8000D298F2 /* ContentView.swift in Sources */,
 				C2DEF86F2A933E8000D298F2 /* DesignSystemStudyOnSwiftApp.swift in Sources */,
+				C2DEF8822A9477F400D298F2 /* TextFieldStyle.swift in Sources */,
 				C2DEF8802A93421000D298F2 /* ColorStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
