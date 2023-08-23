@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2D1520C2A9605EA00960A5E /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1520B2A9605EA00960A5E /* FontStyle.swift */; };
+		C2D152142A96062800960A5E /* SpoqaHanSansNeo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2D1520F2A96062700960A5E /* SpoqaHanSansNeo-Bold.ttf */; };
+		C2D152152A96062800960A5E /* SpoqaHanSansNeo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2D152102A96062700960A5E /* SpoqaHanSansNeo-Medium.ttf */; };
+		C2D152162A96062800960A5E /* SpoqaHanSansNeo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2D152112A96062700960A5E /* SpoqaHanSansNeo-Light.ttf */; };
+		C2D152172A96062800960A5E /* SpoqaHanSansNeo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2D152122A96062700960A5E /* SpoqaHanSansNeo-Regular.ttf */; };
+		C2D152182A96062800960A5E /* SpoqaHanSansNeo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2D152132A96062800960A5E /* SpoqaHanSansNeo-Thin.ttf */; };
 		C2DEF86F2A933E8000D298F2 /* DesignSystemStudyOnSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF86E2A933E8000D298F2 /* DesignSystemStudyOnSwiftApp.swift */; };
 		C2DEF8712A933E8000D298F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DEF8702A933E8000D298F2 /* ContentView.swift */; };
 		C2DEF8732A933E8000D298F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DEF8722A933E8000D298F2 /* Assets.xcassets */; };
@@ -17,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2D1520B2A9605EA00960A5E /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		C2D1520F2A96062700960A5E /* SpoqaHanSansNeo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.ttf"; sourceTree = "<group>"; };
+		C2D152102A96062700960A5E /* SpoqaHanSansNeo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Medium.ttf"; sourceTree = "<group>"; };
+		C2D152112A96062700960A5E /* SpoqaHanSansNeo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Light.ttf"; sourceTree = "<group>"; };
+		C2D152122A96062700960A5E /* SpoqaHanSansNeo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Regular.ttf"; sourceTree = "<group>"; };
+		C2D152132A96062800960A5E /* SpoqaHanSansNeo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Thin.ttf"; sourceTree = "<group>"; };
+		C2D152192A96063200960A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C2DEF86B2A933E8000D298F2 /* DesignSystemStudyOnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignSystemStudyOnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DEF86E2A933E8000D298F2 /* DesignSystemStudyOnSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemStudyOnSwiftApp.swift; sourceTree = "<group>"; };
 		C2DEF8702A933E8000D298F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2D1520E2A96061600960A5E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1520F2A96062700960A5E /* SpoqaHanSansNeo-Bold.ttf */,
+				C2D152112A96062700960A5E /* SpoqaHanSansNeo-Light.ttf */,
+				C2D152102A96062700960A5E /* SpoqaHanSansNeo-Medium.ttf */,
+				C2D152122A96062700960A5E /* SpoqaHanSansNeo-Regular.ttf */,
+				C2D152132A96062800960A5E /* SpoqaHanSansNeo-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C2DEF8622A933E8000D298F2 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +82,8 @@
 		C2DEF86D2A933E8000D298F2 /* DesignSystemStudyOnSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C2D152192A96063200960A5E /* Info.plist */,
+				C2D1520E2A96061600960A5E /* Fonts */,
 				C2DEF87C2A933F1600D298F2 /* DesignSystem */,
 				C2DEF86E2A933E8000D298F2 /* DesignSystemStudyOnSwiftApp.swift */,
 				C2DEF8702A933E8000D298F2 /* ContentView.swift */,
@@ -80,6 +107,7 @@
 				C2DEF87D2A933F3600D298F2 /* ButtonStyle.swift */,
 				C2DEF87F2A93421000D298F2 /* ColorStyle.swift */,
 				C2DEF8812A9477F400D298F2 /* TextFieldStyle.swift */,
+				C2D1520B2A9605EA00960A5E /* FontStyle.swift */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -142,7 +170,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D152162A96062800960A5E /* SpoqaHanSansNeo-Light.ttf in Resources */,
 				C2DEF8762A933E8000D298F2 /* Preview Assets.xcassets in Resources */,
+				C2D152142A96062800960A5E /* SpoqaHanSansNeo-Bold.ttf in Resources */,
+				C2D152152A96062800960A5E /* SpoqaHanSansNeo-Medium.ttf in Resources */,
+				C2D152182A96062800960A5E /* SpoqaHanSansNeo-Thin.ttf in Resources */,
+				C2D152172A96062800960A5E /* SpoqaHanSansNeo-Regular.ttf in Resources */,
 				C2DEF8732A933E8000D298F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +189,7 @@
 			files = (
 				C2DEF87E2A933F3600D298F2 /* ButtonStyle.swift in Sources */,
 				C2DEF8712A933E8000D298F2 /* ContentView.swift in Sources */,
+				C2D1520C2A9605EA00960A5E /* FontStyle.swift in Sources */,
 				C2DEF86F2A933E8000D298F2 /* DesignSystemStudyOnSwiftApp.swift in Sources */,
 				C2DEF8822A9477F400D298F2 /* TextFieldStyle.swift in Sources */,
 				C2DEF8802A93421000D298F2 /* ColorStyle.swift in Sources */,
@@ -290,6 +324,7 @@
 				DEVELOPMENT_TEAM = HLS34A9223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignSystemStudyOnSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +354,7 @@
 				DEVELOPMENT_TEAM = HLS34A9223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignSystemStudyOnSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
