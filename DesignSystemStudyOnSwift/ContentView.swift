@@ -12,7 +12,8 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            DSTextField(style: .TextField, content: $inputText, maxLength: 100)
+//            DSTextField(style: .TextField, content: $inputText, maxLength: 100)
+            
             HStack {
                 DSButton.CustomButtonView(
                     style: .primary(isDisabled: false))
@@ -20,7 +21,7 @@ struct ContentView: View {
                     print("Hello World!")
                 } label: {
                     VStack {
-                        Text("확 인")
+                        Text("Confirm")
                     }
                 }
                 DSButton.CustomButtonView(
@@ -29,7 +30,7 @@ struct ContentView: View {
                     print("Hello World!")
                 } label: {
                     VStack {
-                        Text("취 소")
+                        Text("Cancel")
                     }
                 }
             }

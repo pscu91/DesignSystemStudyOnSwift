@@ -41,16 +41,18 @@ public struct DSButton {
             switch style {
             case .primary(let isDisabled):
                 label
-                    .frame(maxHeight: 56)
-                    .padding(.horizontal, 16)
+                    .frame(maxHeight: 112)
+                    .padding(.horizontal, 32)
+                    .font(.SHSNRegular(.Body02))
                     .foregroundColor(.text01)
                     .background { Color.primary }
                     .opacity(isDisabled ? 0.3 : 1.0)
 
             case .secondary(let isDisabled):
                 label
-                    .frame(maxHeight: 56)
-                    .padding(.horizontal, 16)
+                    .frame(maxHeight: 112)
+                    .padding(.horizontal, 32)
+                    .font(.SHSNRegular(.Body02))
                     .foregroundColor(.uiBackground)
                     .background { Color.secondary }
                     .opacity(isDisabled ? 0.3 : 1.0)
